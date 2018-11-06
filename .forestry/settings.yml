@@ -4,10 +4,16 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: content/about/_index.md
+  label: about
+- type: document
+  path: content/contact/_index.md
+  label: contact
 - type: directory
-  path: content
-  label: Pages
-  create: all
+  path: content/portfolio
+  label: portfolio
+  create: documents
   match: "*"
 upload_dir: static/uploads
 public_path: "/uploads"

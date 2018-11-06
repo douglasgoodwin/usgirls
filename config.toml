@@ -1,0 +1,4 @@
+baseURL = "http://usgirlsdontwanttodothat.com/"
+languageCode = "en-us"
+title = "us girls dont want to do that"
+theme = "hugo-paper"

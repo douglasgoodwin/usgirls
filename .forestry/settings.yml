@@ -7,11 +7,9 @@ sections:
 - type: document
   path: content/about/_index.md
   label: about
-  match: "**/*"
 - type: document
   path: content/contact/_index.md
   label: contact
-  match: "**/*"
 - type: directory
   path: content/portfolio
   label: portfolio
